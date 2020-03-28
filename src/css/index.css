@@ -13,27 +13,37 @@
 
 .social-link { position: relative; }
 
+.social-link > a { text-decoration: none;}
+
 .social-icon:hover {
   animation-name: pulse;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
+.connect {
+  display: block;
+  font-family: Martel, serif;
+}
+
 .tooltip {
-  /* display: none; */
+  visibility: hidden;
+  opacity: 0;
   background-color: black;
   color: white;
   text-align: center;
   border-radius: 5px;
   padding: 5px;
 
-  /* position: absolute; */
-  /* top: 100%; */
-  /* left: 50%; */
+  position: absolute;
+  top: 100%;
+  right: 16%;
 }
 
-.social-icon:hover .tooltip {
-  display: inline;
+.social-link:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transition: 1.5s;
 }
 
 

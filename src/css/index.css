@@ -1,0 +1,125 @@
+.social-icon {
+  height: 50px;
+  /* border: 1px solid black; */
+  border-radius: 50%;
+  padding: 8px;
+  margin: 5px;
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
+              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  background: linear-gradient(135deg, #eee, white);
+  background-color: #eee;
+  /* position: relative; */
+}
+
+.social-link { position: relative; }
+
+.social-icon:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.tooltip {
+  /* display: none; */
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+
+  /* position: absolute; */
+  /* top: 100%; */
+  /* left: 50%; */
+}
+
+.social-icon:hover .tooltip {
+  display: inline;
+}
+
+
+
+
+@keyframes pulse {
+  from {
+    transform: scale(1)
+  }
+
+  25% {
+    transform: scale(0.8)
+  }
+
+  50% {
+    transform: scale(1.3)
+  }
+
+  to {
+    transform: scale(1.2)
+  }
+}
+
+body {
+  margin: 0;
+  background-color: #F2F3F7;
+}
+
+.social-icon-container {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+
+main {
+  font-family: Martel, serif;
+  font-size: 48px;
+  font-weight: 600;
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh; 
+}
+
+.neumorphic-card {
+  display: grid;
+  width: 80%;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
+              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  min-height: 70vh;
+  border-radius: 20px;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav {
+  grid-row-start: 2;
+}
+
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav li {
+  font-family: Martel, serif;
+  border-bottom: 1px solid rgb(26,188,156);
+  padding: 6px;
+  margin: 5px;
+  background: linear-gradient(to bottom, white 50%, rgb(26,188,156) 50%);
+  background-size: 100% 200%;
+  background-position: top;
+}
+
+nav li:hover {
+  color: white;
+  cursor: pointer;
+  background-position: bottom;
+  /* font-size: 1.2em; */
+  transition: 1s;
+}
+
+

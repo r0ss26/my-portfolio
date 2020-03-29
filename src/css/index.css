@@ -40,6 +40,31 @@
   right: 16%;
 }
 
+.intro {
+  font-size: 0.5em;
+}
+
+.typewriter {
+  overflow: hidden;
+  width: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  border-right: 1px solid rgb(26,188,156);
+  animation: 
+    type 2s 2s forwards,
+    blinking-cursor 1s infinite;
+}
+
+@keyframes type {
+  from { width: 0; }
+  to { width: 5.4em; }
+}
+
+@keyframes blinking-cursor {
+  from { border-right-color: rgb(26,188,156) }
+  to { border-right-color: transparent;}
+}
+
 .social-link:hover .tooltip {
   visibility: visible;
   opacity: 1;

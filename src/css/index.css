@@ -37,7 +37,7 @@
 
   position: absolute;
   top: 100%;
-  right: 16%;
+  right: 5px;
 }
 
 .intro {
@@ -123,14 +123,15 @@ body {
 
 .social-icon-container {
   grid-row-start: 3;
-  grid-column-start: 3;
+  grid-column-start: 2;
 }
 
 main {
   font-size: 48px;
   font-weight: 600;
   grid-row-start: 2;
-  grid-column-start: 3;
+  grid-column-start: 1;
+  padding-left: 50px;
 }
 
 .card-container {
@@ -149,11 +150,12 @@ main {
   height: 70vh;
   border-radius: 20px;
   background-color: white;
-  justify-content: space-around;
+  justify-items: center;
   align-items: center;
 }
 
 .home-nav {
+  padding-left: 100px;
   grid-row-start: 2;
 }
 
@@ -211,7 +213,65 @@ nav > ul {padding: 0;}
   animation-fill-mode: forwards;
 }
 
+.view-work {
+  text-align: center;
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
 @keyframes slide-up {
   from {bottom: 0}
   to {bottom: 6px}
+}
+
+@media screen and (max-width: 991.98px) {
+
+  .neumorphic-card {
+    grid-template-rows: repeat(3, 1fr); 
+    grid-template-columns: 100%;
+    justify-content: center;
+  }
+
+  main {
+    grid-row-start: 1;
+    grid-column-start: 1; 
+  }
+
+  .social-icon-container {
+    grid-column-start: 1;
+    grid-row-start: 3;
+  }
+
+  .home-nav {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    padding: 0;
+    position: relative;
+    bottom: 40%;
+  }
+
+  .home-nav li {
+    display: inline;
+  }
+
+  .view-work {
+    grid-row-start: 2;
+    grid-column-start: 1;
+  }
+
+}
+
+
+
+#view-work-btn {
+  background-color: white;
+  padding: 10px 20px;
+  border: 1px solid rgb(26,188,156);
+}
+
+#view-work-btn:hover {
+  color: white;
+  background-color: rgb(26,188,156);
+  cursor: pointer;
+  transition: 1s;
 }

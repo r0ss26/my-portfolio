@@ -122,6 +122,8 @@ body {
 }
 
 .social-icon-container {
+  /* display: flex;
+  flex-wrap: wrap; */
   grid-row-start: 3;
   grid-column-start: 2;
 }
@@ -140,6 +142,8 @@ main {
   margin-top: 10vh; 
 }
 
+
+
 .neumorphic-card {
   display: grid;
   width: 80%;
@@ -147,11 +151,20 @@ main {
   grid-template-columns: repeat(3, 1fr);
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
               12px 12px 12px 0 rgba(224, 228, 239, 0.5);
-  height: 70vh;
   border-radius: 20px;
   background-color: white;
+  /* background-color: #F2F3F7; */
+
   justify-items: center;
   align-items: center;
+}
+
+.large-card {
+  height: 70vh;
+}
+
+.medium-card {
+  height: 30vh;
 }
 
 .home-nav {
@@ -195,8 +208,10 @@ main {
 
 .about-me {
   grid-row-start: 2;
-  padding-left: 80px;
+  grid-column-start: 2;
 }
+
+
 
 nav > ul {padding: 0;}
 
@@ -224,22 +239,32 @@ nav > ul {padding: 0;}
   to {bottom: 6px}
 }
 
+/* Medium sized devices */
 @media screen and (max-width: 991.98px) {
+
+  .card-container {
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+  }
 
   .neumorphic-card {
     grid-template-rows: repeat(3, 1fr); 
     grid-template-columns: 100%;
     justify-content: center;
+    height: 95vh;
   }
 
   main {
     grid-row-start: 1;
     grid-column-start: 1; 
+    padding: 0;
+    text-align: center;
   }
 
   .social-icon-container {
     grid-column-start: 1;
     grid-row-start: 3;
+    text-align: center;
   }
 
   .home-nav {
@@ -261,6 +286,71 @@ nav > ul {padding: 0;}
 
 }
 
+.hidden {
+  display: none;
+}
+
+.hamburger-menu {
+  display: none;
+}
+
+.hamburger-menu:hover {
+  cursor: pointer;
+}
+
+#hamburger-links {
+  grid-row-start: 2;
+}
+
+#hamburger-links li {
+  /* display: inline-block; */
+}
+
+.animation {
+  grid-column-start: 2;
+}
+
+/* Small Devices */
+@media screen and (max-width: 767.98px) {
+
+  .hamburger-menu {
+    position: relative;
+    top: 10px;
+    display: block;
+    grid-row-start: 1;
+    /* text-align: right; */
+  }
+
+  main {
+    grid-row-start: 3;
+  }
+
+  .view-work {
+    grid-row-start: 4;
+  }
+
+  .social-icon-container {
+    grid-row-start: 5;
+  }
+
+  .neumorphic-card {
+    grid-template-rows: auto auto 1fr 1fr 1fr;
+    height: auto;
+    /* box-shadow: inset -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
+              inset 12px 12px 12px 0 rgba(224, 228, 239, 0.5); */
+  }
+
+  .card-container {
+    margin: 2.5vh 0 0 0;
+    padding: 0;
+  }
+
+  .home-nav {
+    display: none;
+  }
+
+
+}
 
 
 #view-work-btn {

@@ -59,6 +59,17 @@
   right: 5px;
 }
 
+.top {
+  top: -400%;
+  right: 15px;
+}
+
+.social-link:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+  transition: 1.5s;
+}
+
 .intro {
   font-size: 0.5em;
 }
@@ -84,11 +95,7 @@
   to { border-right-color: transparent;}
 }
 
-.social-link:hover .tooltip {
-  visibility: visible;
-  opacity: 1;
-  transition: 1.5s;
-}
+
 
 
 
@@ -137,11 +144,18 @@ p > a {
 }
 
 
-
 body {
   margin: 0;
   font-family: Martel, serif;
   background-color: #F2F3F7;
+}
+
+.about-me-heading {
+  font-weight: bold;
+  font-size: 2em;
+  color: rgb(26,188,156);
+  grid-row-start: 1;
+  grid-column-start: 2;
 }
 
 .social-icon-container {
@@ -155,6 +169,7 @@ body {
 .tech-icon-container {
   /* display: flex;
   flex-wrap: wrap; */
+  text-align: center;
   grid-row-start: 2;
   grid-column-start: 1;
 }

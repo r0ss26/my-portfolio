@@ -55,6 +55,11 @@ input[type="submit"] {
   width: 100%;
 }
 
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+
 .social-icon-container {
   grid-row-start: 2;
   grid-column-start: 3;

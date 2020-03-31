@@ -11,6 +11,25 @@
   /* position: relative; */
 }
 
+.tech-icon {
+  height: 50px;
+  /* border: 1px solid black; */
+  border-radius: 35%;
+  padding: 8px;
+  margin: 5px;
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
+              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  background: linear-gradient(135deg, #eee, white);
+  background-color: #eee;
+  /* position: relative; */
+}
+
+.tech-icon:hover {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 .social-link { position: relative; }
 
 .social-link > a { text-decoration: none;}
@@ -101,6 +120,10 @@ a:clicked {
   color: black;
 }
 
+p > a {
+  text-decoration: underline;
+}
+
 .navbar {
   display: flex;
   justify-content: center;
@@ -124,8 +147,16 @@ body {
 .social-icon-container {
   /* display: flex;
   flex-wrap: wrap; */
+  text-align: center;
   grid-row-start: 3;
   grid-column-start: 2;
+}
+
+.tech-icon-container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  grid-row-start: 2;
+  grid-column-start: 1;
 }
 
 main {
@@ -143,7 +174,7 @@ main {
 }
 
 .project-demo > img {
-  height: 200px;
+  /* height: 200px; */
 }
 
 
@@ -208,6 +239,7 @@ main {
   grid-template-rows: 1fr;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
+  /* margin-top: 5vh; */
 }
 
 .home-nav li:hover {
@@ -364,7 +396,7 @@ nav > ul {padding: 0;}
   }
 
   .card-container {
-    margin: 2.5vh 0 0 0;
+    margin: 2.5vh 0 2.5vh 0;
     padding: 0;
   }
 
@@ -376,13 +408,13 @@ nav > ul {padding: 0;}
 }
 
 
-#view-work-btn {
+.primary-btn {
   background-color: white;
   padding: 10px 20px;
   border: 1px solid rgb(26,188,156);
 }
 
-#view-work-btn:hover {
+.primary-btn:hover {
   color: white;
   background-color: rgb(26,188,156);
   cursor: pointer;

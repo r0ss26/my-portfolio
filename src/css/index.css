@@ -355,16 +355,12 @@ nav > ul {padding: 0;}
   padding: 20px 50px;
 }
 
-.full {
-  display: none;
-}
-
-.see-more {
+.see-more, .see-less {
   color: blue;
   text-decoration: underline;
 }
 
-.see-more:hover {
+.see-more:hover, .see-less:hover {
   cursor: pointer;
 }
 

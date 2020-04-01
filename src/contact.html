@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/index.css">
   <link href="https://fonts.googleapis.com/css?family=Martel:400,600&display=swap" rel="stylesheet">
   <title>Connect with Ross</title>
 </head>
@@ -18,14 +18,34 @@
       <li><a href="./">Home</a></li>
       <li><a href="./work.html">Work</a></li>
       <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./contact.html" class="active">Contact</a></li>
       <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
       <li><a href="./blog.html">Blog</a></li>
     </ul>
   </nav>
 
+  <!-- Hamburger Menu -->
+  <div id="hamburger-menu" class="hamburger-menu">
+    <svg width="40" height="30">
+      <rect width="40" height="2.5" rx="5"></rect>
+      <rect y="10" width="40" height="2.5" rx="5"></rect>
+      <rect y="20" width="40" height="2.5" rx="5"></rect>
+    </svg>
+  </div>
+
+  <div id="hamburger-links" class="hamburger-links hidden">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./work.html">Work</a></li>
+      <li><a href="./about.html">About</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="#">Resume</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+    </ul>
+  </div>
+
   <div class="card-container">
-    <div class="neumorphic-card large-card">
+    <div class="neumorphic-card contact-card">
 
       <div class="contact-text">
         <h1 class="contact-title">Get in touch...</h1>
@@ -40,7 +60,7 @@
         <input type="submit" value="Submit">
       </form>
 
-      <div class="social-icon-container">
+      <div class="social-icon-container--contact">
         <div>
           <span class="social-link">
             <a target="_blank"  href="https://github.com/r0ss26">
@@ -83,6 +103,7 @@
       </div>
     </div>
   </div>
+  <script src="./js/hamburger.js"></script>
   
 </body>
 

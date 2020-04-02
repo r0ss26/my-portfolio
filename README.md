@@ -92,7 +92,7 @@ My git repository includes three branches in addition to the master branch. Each
 
 ## Sitemap
 
-![Portfolio_Sitemap](./docs/Portfolio_Sitemap.png)
+​				![Portfolio_Sitemap](./docs/Portfolio_Sitemap.png)
 
 ## Screenshots
 

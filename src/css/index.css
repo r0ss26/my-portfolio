@@ -15,6 +15,10 @@ textarea {
   border-radius: 3px;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 .contact-text {
   grid-row-start: 2;
   padding-left: 50px;
@@ -65,7 +69,7 @@ a {
 
 body {
   margin: 0;
-  font-family: Martel, serif;
+  font-family: 'Roboto Mono', monospace;
   background-color: #f2f3f7;
 }
 
@@ -73,7 +77,7 @@ main {
   grid-row-start: 2;
   grid-column-start: 1;
   font-size: 48px;
-  font-weight: 600;
+  font-weight: normal;
   padding-left: 50px;
 }
 
@@ -126,7 +130,7 @@ p > a {
 
 .connect {
   display: block;
-  font-family: Martel, serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .tooltip {
@@ -182,7 +186,7 @@ p > a {
 }
 
 .about-me-heading {
-  font-weight: bold;
+  font-weight: normal;
   font-size: 2em;
   color: rgb(26, 188, 156);
   grid-row-start: 1;
@@ -299,7 +303,7 @@ p > a {
 }
 
 .home-nav li {
-  font-family: Martel, serif;
+  font-family: 'Roboto Mono', monospace;
   border-bottom: 1px solid rgb(26, 188, 156);
   padding: 6px;
   margin: 5px;

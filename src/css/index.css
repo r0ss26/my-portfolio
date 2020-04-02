@@ -11,7 +11,7 @@ textarea {
 }
 
 textarea {
-  border: 1px solid rgb(26, 188, 156);
+  border: 1px solid white;
   border-radius: 3px;
 }
 
@@ -25,18 +25,18 @@ textarea {
 }
 
 .contact-title {
-  color: rgb(26, 188, 156);
+  color: white;
 }
 
 form input[type="text"],
 form input[type="email"] {
   border: none;
-  border-bottom: 1px solid rgb(26, 188, 156);
+  border-bottom: 1px solid white;
 }
 
 form input[type="submit"] {
-  color: white;
-  background-color: rgb(26, 188, 156);
+  color: 393e46;
+  background-color: white;
   border: none;
   border-radius: 5px;
   width: 100%;
@@ -60,20 +60,20 @@ textarea {
 
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 body {
   margin: 0;
-  font-family: Martel, serif;
-  background-color: #f2f3f7;
+  font-family: 'Roboto Mono', monospace;
+  background-color: black;
+  color: white;
 }
 
 main {
   grid-row-start: 2;
   grid-column-start: 1;
   font-size: 48px;
-  font-weight: 600;
   padding-left: 50px;
 }
 
@@ -92,14 +92,18 @@ p > a {
   margin: 5px;
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
     12px 12px 12px 0 rgba(224, 228, 239, 0.5);
-  background: linear-gradient(135deg, #eee, white);
+  background: linear-gradient(135deg, #eee, 393e46);
   background-color: #eee;
 }
 
+h2 {
+  font-weight: normal;
+}
+
 .primary-btn {
-  background-color: white;
+  background-color: 393e46;
   padding: 10px 20px;
-  border: 1px solid rgb(26, 188, 156);
+  border: 1px solid white;
 }
 
 .tech-icon {
@@ -109,7 +113,7 @@ p > a {
   margin: 5px;
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
     12px 12px 12px 0 rgba(224, 228, 239, 0.5);
-  background: linear-gradient(135deg, #eee, white);
+  background: linear-gradient(135deg, #eee, 393e46);
   background-color: #eee;
 }
 
@@ -118,22 +122,22 @@ p > a {
 }
 
 .primary-btn:hover {
-  color: white;
-  background-color: rgb(26, 188, 156);
+  color: 393e46;
+  background-color: white;
   cursor: pointer;
   transition: 1s;
 }
 
 .connect {
   display: block;
-  font-family: Martel, serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .tooltip {
   visibility: hidden;
   opacity: 0;
   background-color: black;
-  color: white;
+  color: 393e46;
   text-align: center;
   border-radius: 5px;
   padding: 5px;
@@ -170,7 +174,7 @@ p > a {
   width: 0;
   display: inline-block;
   vertical-align: bottom;
-  border-right: 1px solid rgb(26, 188, 156);
+  border-right: 1px solid white;
   animation: type 2s 2s forwards, blinking-cursor 1s infinite;
 }
 
@@ -182,9 +186,8 @@ p > a {
 }
 
 .about-me-heading {
-  font-weight: bold;
   font-size: 2em;
-  color: rgb(26, 188, 156);
+  color: white;
   grid-row-start: 1;
   grid-column-start: 2;
 }
@@ -229,7 +232,7 @@ p > a {
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
     12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   border-radius: 20px;
-  background-color: white;
+  background-color: #393e46;
   justify-items: center;
   align-items: center;
 }
@@ -299,11 +302,11 @@ p > a {
 }
 
 .home-nav li {
-  font-family: Martel, serif;
-  border-bottom: 1px solid rgb(26, 188, 156);
+  font-family: 'Roboto Mono', monospace;
+  border-bottom: 1px solid white;
   padding: 6px;
   margin: 5px;
-  background: linear-gradient(to bottom, white 50%, rgb(26, 188, 156) 50%);
+  background: linear-gradient(to bottom, 393e46 50%, white 50%);
   background-size: 100% 200%;
   background-position: top;
 }
@@ -323,7 +326,7 @@ nav > ul {
 }
 
 .home-nav li:hover {
-  color: white;
+  color: 393e46;
   cursor: pointer;
   background-position: bottom;
   /* font-size: 1.2em; */
@@ -332,12 +335,12 @@ nav > ul {
 
 .home-nav li:hover a {
   transition: 1s;
-  color: white;
+  color: 393e46;
 }
 
 .navbar li:hover a:not(.active) {
-  border-bottom: 2px solid rgb(26, 188, 156);
-  color: rgb(26, 188, 156);
+  border-bottom: 2px solid white;
+  color: white;
   position: relative;
   animation-name: slide-up;
   animation-duration: 0.5s;
@@ -387,7 +390,7 @@ nav > ul {
 
 @keyframes blinking-cursor {
   from {
-    border-right-color: rgb(26, 188, 156);
+    border-right-color: white;
   }
   to {
     border-right-color: transparent;
@@ -618,8 +621,8 @@ nav > ul {
 }
 
 .active {
-  color: rgb(26, 188, 156);
-  border-bottom: 2px solid rgb(26, 188, 156);
+  color: white;
+  border-bottom: 2px solid white;
   position: relative;
   bottom: 6px;
 }

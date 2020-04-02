@@ -10,7 +10,7 @@ input, textarea {
 }
 
 textarea {
-  border: 1px solid #634ABE;
+  border: 1px solid rgb(26,188,156);
   border-radius: 3px;
 }
 
@@ -19,18 +19,23 @@ textarea {
   padding-left: 50px;
 }
 
+.project-img {
+  height: 90px;
+}
+
 .contact-title {
   color: rgb(26,188,156);
 }
 
 form input[type="text"], form input[type="email"] {
   border: none;
-  border-bottom: 1px solid #634ABE;
+  border-bottom: 1px solid rgb(26,188,156);
 }
 
 form input[type="submit"] {
   color: white;
-  background-color: #634ABE;
+  background-color: rgb(26,188,156);
+  border: none;
   border-radius: 5px;
   width: 100%;
 }
@@ -225,6 +230,18 @@ p > a {
   background-color: white;
   justify-items: center;
   align-items: center;
+}
+/* 
+.display-menu {
+  display
+} */
+
+#slide-right {
+
+}
+
+.bottom-card {
+  margin: 0 0 50px 0;
 }
 
 .large-card {
@@ -538,7 +555,7 @@ nav > ul {padding: 0;}
   }
 
   .hamburger-menu {
-    grid-row-start: 1;
+    /* grid-row-start: 1; */
     text-align: center;
     position: relative;
     top: 10px;
@@ -546,8 +563,18 @@ nav > ul {padding: 0;}
   }
 
   .hamburger-links {
-    grid-column-start: 1;
-    grid-row-start: 2;
+    /* grid-column-start: 2;
+    grid-row-start: 2; */
+  }
+
+  
+
+  .hamburger-links li {
+    list-style-type: none;
+  }
+
+  .hamburger-links a {
+    font-family: 'Roboto', sans-serif;
   }
 
   .neumorphic-card {

@@ -1,8 +1,11 @@
+// Event handler for displaying mobile navigation menu
 document.getElementById("hamburger-menu").addEventListener("click", () => {
-  menu = document.getElementById("hamburger-links")
-  menu.classList.toggle("hidden")
+  menuLinks = document.getElementById("hamburger-links")
+  menuLinks.classList.toggle("hidden")
 })
 
+
+// Add event listener for read more button
 Array.from(document.getElementsByClassName("see-more")).forEach((seeMoreBtn, i, arr) => {
 
   console.log(seeMoreBtn);
@@ -29,18 +32,18 @@ Array.from(document.getElementsByClassName("see-more")).forEach((seeMoreBtn, i, 
   })
 })
 
-// Array.from(document.getElementsByClassName("see-less")).forEach((seeLessBtn, i, arr) => {
-//   seeLessBtn.addEventListener("click", () => {
-//     seeLessBtn.parentNode.parentNode.firstChildtoggle("hidden")
-//     // Array.from(seeLessBtn.parentNode.parentNode.childNodes).forEach((child, i, arr), () => {
-//     //   if (child.className) {
-//     //     console.log(child);
+Array.from(document.getElementsByClassName("see-less")).forEach((seeLessBtn, i, arr) => {
+  seeLessBtn.addEventListener("click", () => {
+    seeLessBtn.parentNode.classList.toggle("hidden")
+    console.log(seeLessBtn.parentNode.parentNode.firstChild.nextElementSibling.firstChild.nextElementSibling.classList.toggle("hidden"));
+      //.classList.toggle("hidden");
+    // Array.from(seeLessBtn.parentNode.parentNode.childNodes).forEach((child, i, arr), () => {
+    //   if (child.className) {
+    //     console.log(child);
         
-//     //   }
-      
-//     })
-//     })
-//   }
-// )
+    //   }
+  })
+})
+
 
 

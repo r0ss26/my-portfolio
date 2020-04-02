@@ -90,10 +90,10 @@ p > a {
   border-radius: 50%;
   padding: 8px;
   margin: 5px;
-  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
-    12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  box-shadow: -5px -5px 5px 0 rgba(255, 255, 255, 0.5),
+    5px 5px 5px 0 rgba(224, 228, 239, 0.5);
   background: linear-gradient(135deg, #eee, 393e46);
-  background-color: #eee;
+  background-color: #393e46;
 }
 
 h2 {
@@ -101,7 +101,7 @@ h2 {
 }
 
 .primary-btn {
-  background-color: 393e46;
+  background-color: #393e46;
   padding: 10px 20px;
   border: 1px solid white;
 }
@@ -114,7 +114,7 @@ h2 {
   box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
     12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   background: linear-gradient(135deg, #eee, 393e46);
-  background-color: #eee;
+  background-color: #393e46;
 }
 
 .social-link {
@@ -122,7 +122,7 @@ h2 {
 }
 
 .primary-btn:hover {
-  color: 393e46;
+  color: #393e46;
   background-color: white;
   cursor: pointer;
   transition: 1s;

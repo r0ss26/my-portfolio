@@ -65,7 +65,7 @@ a {
 
 body {
   margin: 0;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Martel', serif;
   background-color: black;
   color: white;
 }
@@ -130,7 +130,7 @@ h2 {
 
 .connect {
   display: block;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Martel', serif;
 }
 
 .tooltip {
@@ -302,7 +302,7 @@ h2 {
 }
 
 .home-nav li {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Martel', serif;
   border-bottom: 1px solid white;
   padding: 6px;
   margin: 5px;

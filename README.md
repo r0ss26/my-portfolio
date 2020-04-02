@@ -78,29 +78,29 @@ My git repository includes three branches in addition to the master branch. Each
 
 #### Purple Theme
 
-![purple](/home/ross/Documents/Assignments/Portfolio_Site/docs/purple.png)
+![purple](./docs/purple.png)
 
 #### Monospace Font
 
-![mono-font](/home/ross/Documents/Assignments/Portfolio_Site/docs/mono-font.png)
+![mono-font](./docs/mono-font.png)
 
 #### Dark Theme
 
-![dark](/home/ross/Documents/Assignments/Portfolio_Site/docs/dark.png)
+![dark](./docs/dark.png)
 
 
 
 ## Sitemap
 
-![Portfolio_Sitemap](/home/ross/Documents/Assignments/Portfolio_Site/docs/Portfolio_Sitemap.png)
+![Portfolio_Sitemap](./docs/Portfolio_Sitemap.png)
 
 ## Screenshots
 
 ### Trello
 
-![trello-1](/home/ross/Documents/Assignments/Portfolio_Site/docs/trello-1.png)
+![trello-1](./docs/trello-1.png)
 
-![trello-2](/home/ross/Documents/Assignments/Portfolio_Site/docs/trello-2.png)
+![trello-2](./docs/trello-2.png)
 
 ### Wire-framing
 
@@ -108,23 +108,23 @@ All wire-frames for my website were done with the balsamiq cloud application. I 
 
 #### Home Page
 
-![Home Page](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/Home Page.png)
+![Home Page](./docs/wireframes/Home Page.png)
 
 #### Work Page
 
-![Work](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/Work.png)
+![Work](./docs/wireframes/Work.png)
 
 #### About Page
 
-![About](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/About.png)
+![About](./docs/wireframes/About.png)
 
 #### Contact Page
 
-![Get In Touch](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/Get In Touch.png)
+![Get In Touch](./docs/wireframes/Get In Touch.png)
 
 #### Blog Page
 
-![Blog](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/Blog.png)
+![Blog](./docs/wireframes/Blog.png)
 
 ## Tech Stack
 

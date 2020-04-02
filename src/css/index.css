@@ -364,6 +364,10 @@ nav > ul {
   padding: 20px 50px;
 }
 
+.blog-title {
+  padding: 0 20px;
+}
+
 .see-more,
 .see-less {
   color: blue;

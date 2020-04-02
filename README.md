@@ -10,7 +10,7 @@ https://github.com/r0ss26/portfolio
 
 ## Purpose
 
-The purpose of my portfolio website is to showcase my web development and programming skills & knowledge. This has been implemented in two ways - firstly, the website itself demonstrates functionality which I have designed utilising HTML5, CSS3 and JavaScript. Secondly, I have includes a "Works" section on the page which links to various programming projects I have worked on that I am proud of.
+The purpose of my portfolio website is to showcase my web development and programming skills & knowledge. This has been implemented in two ways - firstly, the website itself demonstrates functionality which I have designed utilising HTML5, CSS3 and JavaScript. Secondly, I have included a "Works" section on the page which links to various programming projects I have worked on that I am proud of.
 
 This site also aims to bring attention to my blog posts which are published on the site. These posts outline my learning, progress and passion for development.
 
@@ -28,7 +28,7 @@ The aesthetics of my portfolio site were inspired by the design style "neumorphi
 
 ![neumorphism-material](./docs/neumorphism-material.jpeg)
 
-*Visualisation of the difference between a neumorphic and material card*. [1]
+*Visualisation of the difference between a neumorphic and material card* [1].
 
 This style is accomplished by creating contrasting light and dark borders on opposing sides of an HTML component. This creates the illusion of a light source being shone from above. Altering which sides of the component are contrasting acts to modify the angle of this light source.
 
@@ -44,7 +44,7 @@ The various navigation menus implement a similar aesthetic style - when hovered 
 
 ### Component 3: Social Icons
 
-I have implemented links to my social media profiles using a neumorphic design which is consistent with the rest of my site. This component consists of a series of icons which animate when hovered over,  as well as a tool tip describing the website it links to. These links open up in a new tab to allow the user to view my profiles without navigating away from my portfolio.
+I have implemented links to my social media profiles using a neumorphic design which is consistent with the rest of my site. This component consists of a series of icons which animate when hovered over, as well as a tool tip describing the website it links to. These links open up in a new tab to allow the user to view my profiles without navigating away from my portfolio.
 
 ### Component 4: Blog Posts
 
@@ -60,7 +60,7 @@ On my "About Me" page I have visualised some of the technologies I am familiar w
 
 ### Component 7: Typewriter Effect
 
-I have used a typewriter effect to add visual flow to the home page, the aim is to draw the users eye to the moving text in the introduction, which then flows across to the call to action button.
+I have used a typewriter effect to add visual flow to the home page, the aim is to draw the user's eye to the moving text in the introduction, which then flows across to the call to action button.
 
 The animation consists of two separate CSS animations which run on a delay after the home page has loaded. I have simulated a cursor effect by having the right hand border of the HTML span animate between coloured and transparent on an infinite loop. The typing effect is achieved by transitioning the span from 0% width to 100% with the overflow being hidden.
 
@@ -74,7 +74,19 @@ In order to showcase my projects I have used a neumorphic card to display each p
 
 ### Feature 3: Version Branches
 
+My git repository includes three branches in addition to the master branch. Each branch demonstrates a unique styling of the site.
 
+#### Purple Theme
+
+![purple](/home/ross/Documents/Assignments/Portfolio_Site/docs/purple.png)
+
+#### Monospace Font
+
+![mono-font](/home/ross/Documents/Assignments/Portfolio_Site/docs/mono-font.png)
+
+#### Dark Theme
+
+![dark](/home/ross/Documents/Assignments/Portfolio_Site/docs/dark.png)
 
 
 
@@ -113,8 +125,6 @@ All wire-frames for my website were done with the balsamiq cloud application. I 
 #### Blog Page
 
 ![Blog](/home/ross/Documents/Assignments/Portfolio_Site/docs/wireframes/Blog.png)
-
-
 
 ## Tech Stack
 

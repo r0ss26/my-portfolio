@@ -1,93 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
+    <title>About Ross</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Martel:400,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
-  <title>About Ross</title>
-</head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./about.html" class="active">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+      </ul>
+    </nav>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="./">Home</a></li>
-      <li><a href="./work.html">Work</a></li>
-      <li><a href="./about.html" class="active">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
-      <li><a href="./blog.html">Blog</a></li>
-    </ul>
-  </nav>
+    <!-- Hamburger Menu -->
+    <div id="hamburger-menu" class="hamburger-menu">
+      <svg width="40" height="30">
+        <rect width="40" height="2.5" rx="5"></rect>
+        <rect y="10" width="40" height="2.5" rx="5"></rect>
+        <rect y="20" width="40" height="2.5" rx="5"></rect>
+      </svg>
+    </div>
 
- 
-<!-- Hamburger Menu -->
-<div id="hamburger-menu" class="hamburger-menu">
-  <svg width="40" height="30">
-    <rect width="40" height="2.5" rx="5"></rect>
-    <rect y="10" width="40" height="2.5" rx="5"></rect>
-    <rect y="20" width="40" height="2.5" rx="5"></rect>
-  </svg>
-</div>
+    <div id="hamburger-links" class="hamburger-links hidden">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+      </ul>
+    </div>
 
-<div id="hamburger-links" class="hamburger-links hidden">
-  <ul>
-    <li><a href="./index.html">Home</a></li>
-    <li><a href="./work.html">Work</a></li>
-    <li><a href="./about.html">About</a></li>
-    <li><a href="./contact.html">Contact</a></li>
-    <li><a href="#">Resume</a></li>
-    <li><a href="./blog.html">Blog</a></li>
-  </ul>
-</div>
-  
+    <div class="card-container">
+      <div class="neumorphic-card large-card">
+        <!-- Technology Icons -->
+        <div class="tech-icon-container">
+          <p>
+            Some of the technologies I use daily
+          </p>
 
-  <div class="card-container">
-    <div class="neumorphic-card large-card">
+          <!-- Github -->
+          <img
+            class="tech-icon"
+            src="icons/tech/icons8-javascript-logo.svg"
+            alt="JavaScript Logo"
+          />
 
-      
+          <!-- Twitter -->
+          <img
+            class="tech-icon"
+            src="./icons/tech/icons8-ruby-programming-language.svg"
+            alt="Ruby Logo"
+          />
 
-      <div class="tech-icon-container">
-        <p>
-          Some of the technologies I use daily
-        </p>
+          <!-- Medium -->
+          <img
+            class="tech-icon"
+            src="./icons/socials/icons8-github.svg"
+            alt="Github Logo"
+          />
 
-        <img class="tech-icon" src="icons/tech/icons8-javascript-logo.svg" alt="Github Logo">
+          <!-- LinkedIn -->
+          <img
+            class="tech-icon"
+            src="./icons/tech/icons8-html-5.svg"
+            alt="HTML5 Logo"
+          />
 
-        <img class="tech-icon" src="./icons/tech/icons8-ruby-programming-language.svg" alt="Twitter Logo">
+          <!-- CSS -->
+          <img
+            class="tech-icon"
+            src="./icons/tech/icons8-css3.svg"
+            alt="CSS3 Logo"
+          />
+        </div>
 
-        <img class="tech-icon" src="./icons/socials/icons8-github.svg" alt="Medium Logo">
-
-        <img class="tech-icon" src="./icons/tech/icons8-html-5.svg" alt="Linkedin Logo">
-
-        <img class="tech-icon" src="./icons/tech/icons8-css3.svg" alt="Gmail Logo">
-
-      </div>
-
-      <div class="about-me-heading">A bit about me...</div>
-      <img class="about-me-image" src="./img/digital-nomad.jpg" alt="">
-      <div class="about-me">
-
-        <p>
-          I am a software developer in the process of completing
-          a coding bootcamp (Diploma of Information Technology) at 
-          <a href="https://coderacademy.edu.au/" target="_blank">Coder Academy</a> Sydney. 
-        </p>
-        <p>
-          I enjoy using code to build solutions, solve problems and be creative.
-          Utilising whichever language, stack or framework is best for the job.
-        </p>
-        
-
+        <!-- About Me -->
+        <div class="about-me-heading">A bit about me...</div>
+        <img
+          class="about-me-image"
+          src="./img/digital-nomad.jpg"
+          alt="Illustration of a digital nomad"
+        />
+        <div class="about-me">
+          <p>
+            I am a software developer in the process of completing a coding
+            bootcamp (Diploma of Information Technology) at
+            <a href="https://coderacademy.edu.au/" target="_blank"
+              >Coder Academy</a
+            >
+            Sydney.
+          </p>
+          <p>
+            I enjoy using code to build solutions, solve problems and be
+            creative. Utilising whichever language, stack or framework is best
+            for the job.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <script src="./js/hamburger.js"></script>
 
-</body>
+    <!-- Scripts for blog posts and hamburger menu -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>

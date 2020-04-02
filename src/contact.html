@@ -1,112 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico" />
+    <title>Connect with Ross</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/contact.css">
-  <link rel="stylesheet" href="css/index.css">
-  <link href="https://fonts.googleapis.com/css?family=Martel:400,600&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" sizes="32x32" href="./favicon.ico">
-  <title>Connect with Ross</title>
-</head>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Martel:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html" class="active">Contact</a></li>
+        <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+      </ul>
+    </nav>
 
-  <!-- Navigation Bar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="./">Home</a></li>
-      <li><a href="./work.html">Work</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html" class="active">Contact</a></li>
-      <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
-      <li><a href="./blog.html">Blog</a></li>
-    </ul>
-  </nav>
+    <!-- Hamburger Menu -->
+    <div id="hamburger-menu" class="hamburger-menu">
+      <svg width="40" height="30">
+        <rect width="40" height="2.5" rx="5"></rect>
+        <rect y="10" width="40" height="2.5" rx="5"></rect>
+        <rect y="20" width="40" height="2.5" rx="5"></rect>
+      </svg>
+    </div>
 
-  <!-- Hamburger Menu -->
-  <div id="hamburger-menu" class="hamburger-menu">
-    <svg width="40" height="30">
-      <rect width="40" height="2.5" rx="5"></rect>
-      <rect y="10" width="40" height="2.5" rx="5"></rect>
-      <rect y="20" width="40" height="2.5" rx="5"></rect>
-    </svg>
-  </div>
+    <div id="hamburger-links" class="hamburger-links hidden">
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./work.html">Work</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./Ross_Baker_CV.pdf" target="_blank">Resume</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+      </ul>
+    </div>
 
-  <div id="hamburger-links" class="hamburger-links hidden">
-    <ul>
-      <li><a href="./index.html">Home</a></li>
-      <li><a href="./work.html">Work</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-      <li><a href="#">Resume</a></li>
-      <li><a href="./blog.html">Blog</a></li>
-    </ul>
-  </div>
-
-  <div class="card-container">
-    <div class="neumorphic-card contact-card">
-
-      <div class="contact-text">
-        <h1 class="contact-title">Get in touch...</h1>
-        I would love to hear about any exciting projects! 
-      </div>
-
-      <form action="#" method="">
-        <input type="text" name="name" id="name" placeholder="Name">
-        <input type="text" name="subject" id="subject" placeholder="Subject">
-        <input type="email" name="email" id="email" placeholder="E-mail">
-        <textarea rows="15" id="body" name="body" placeholder="Message"></textarea>
-        <input type="submit" value="Submit">
-      </form>
-
-      <div class="social-icon-container--contact">
-        <div>
-          <span class="social-link">
-            <a target="_blank"  href="https://github.com/r0ss26">
-              <img class="social-icon" src="icons/socials/icons8-github.svg" alt="Github Logo">
-            </a>
-            <span class="tooltip top">Github</span>
-          </span>
-          
-          <span class="social-link">
-            <a target="_blank"  href="https://twitter.com/rossandrewbaker">
-              <img class="social-icon" src="./icons/socials/icons8-twitter.svg" alt="Twitter Logo">
-            </a>
-            <span class="tooltip top">Twitter</span>
-          </span>
-  
-          <span class="social-link">
-            <a target="_blank"  href="https://medium.com/@rossabaker">
-              <img class="social-icon" src="./icons/socials/icons8-medium.svg" alt="Medium Logo">
-            </a>
-            <span class="tooltip top">Medium</span>
-          </span>
+    <div class="card-container">
+      <div class="neumorphic-card contact-card">
+        <div class="contact-text">
+          <h1 class="contact-title">Get in touch...</h1>
+          I would love to hear about any exciting projects!
         </div>
-        <!-- <span class="connect">Connect with me:</span> -->
-        <div>
 
-          <span class="social-link">
-            <a target="_blank"  href="https://www.linkedin.com/in/rossandrewbaker/">
-              <img class="social-icon" src="./icons/socials/icons8-linkedin.svg" alt="Linkedin Logo">
-            </a>
-            <span class="tooltip">Linkedin</span>
-          
-          </span>
-          <span class="social-link">
-            <a target="_blank"  href="mailto:rossbaker32@gmail.com">
-              <img class="social-icon" src="./icons/socials/icons8-email-sign-100.png" alt="Gmail Logo">
-            </a>
-            <span class="tooltip">E-mail</span>
-          </span>
+        <!-- Contact Form -->
+        <form action="#" method="">
+          <input type="text" name="name" id="name" placeholder="Name" />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+          />
+          <input type="email" name="email" id="email" placeholder="E-mail" />
+          <textarea
+            rows="15"
+            id="body"
+            name="body"
+            placeholder="Message"
+          ></textarea>
+          <input type="submit" value="Submit" />
+        </form>
+
+        <!-- Social Icons -->
+        <div class="social-icon-container--contact">
+          <span class="connect">Connect with me</span>
+          <div>
+            <!-- Github -->
+            <span class="social-link">
+              <a target="_blank" href="https://github.com/r0ss26">
+                <img
+                  class="social-icon"
+                  src="icons/socials/icons8-github.svg"
+                  alt="Github Logo"
+                />
+              </a>
+              <span class="tooltip top">Github</span>
+            </span>
+
+            <!-- Twitter -->
+            <span class="social-link">
+              <a target="_blank" href="https://twitter.com/rossandrewbaker">
+                <img
+                  class="social-icon"
+                  src="./icons/socials/icons8-twitter.svg"
+                  alt="Twitter Logo"
+                />
+              </a>
+              <span class="tooltip top">Twitter</span>
+            </span>
+
+            <!-- Medium -->
+            <span class="social-link">
+              <a target="_blank" href="https://medium.com/@rossabaker">
+                <img
+                  class="social-icon"
+                  src="./icons/socials/icons8-medium.svg"
+                  alt="Medium Logo"
+                />
+              </a>
+              <span class="tooltip top">Medium</span>
+            </span>
+          </div>
+          <div>
+            <!-- LinkedIn -->
+            <span class="social-link">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/rossandrewbaker/"
+              >
+                <img
+                  class="social-icon"
+                  src="./icons/socials/icons8-linkedin.svg"
+                  alt="Linkedin Logo"
+                />
+              </a>
+              <span class="tooltip">Linkedin</span>
+            </span>
+
+            <!-- E-mail -->
+            <span class="social-link">
+              <a target="_blank" href="mailto:rossbaker32@gmail.com">
+                <img
+                  class="social-icon"
+                  src="./icons/socials/icons8-email-sign-100.png"
+                  alt="Gmail Logo"
+                />
+              </a>
+              <span class="tooltip">E-mail</span>
+            </span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <script src="./js/hamburger.js"></script>
-  
-</body>
 
+    <!-- Scripts for blog posts and hamburger menu -->
+    <script src="./js/script.js"></script>
+  </body>
 </html>

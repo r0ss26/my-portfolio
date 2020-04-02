@@ -4,13 +4,14 @@ form {
   padding: 20px;
 }
 
-input, textarea {
+input,
+textarea {
   font-size: 1.2em;
   width: 330px;
 }
 
 textarea {
-  border: 1px solid rgb(26,188,156);
+  border: 1px solid rgb(26, 188, 156);
   border-radius: 3px;
 }
 
@@ -24,17 +25,18 @@ textarea {
 }
 
 .contact-title {
-  color: rgb(26,188,156);
+  color: rgb(26, 188, 156);
 }
 
-form input[type="text"], form input[type="email"] {
+form input[type="text"],
+form input[type="email"] {
   border: none;
-  border-bottom: 1px solid rgb(26,188,156);
+  border-bottom: 1px solid rgb(26, 188, 156);
 }
 
 form input[type="submit"] {
   color: white;
-  background-color: rgb(26,188,156);
+  background-color: rgb(26, 188, 156);
   border: none;
   border-radius: 5px;
   width: 100%;
@@ -44,7 +46,8 @@ input[type="submit"]:hover {
   cursor: pointer;
 }
 
-form > input, textarea {
+form > input,
+textarea {
   padding: 5px;
   margin: 20px 0;
   display: block;
@@ -63,7 +66,7 @@ a {
 body {
   margin: 0;
   font-family: Martel, serif;
-  background-color: #F2F3F7;bottom:;
+  background-color: #f2f3f7;
 }
 
 main {
@@ -73,7 +76,6 @@ main {
   font-weight: 600;
   padding-left: 50px;
 }
-
 
 a:clicked {
   color: black;
@@ -88,8 +90,8 @@ p > a {
   border-radius: 50%;
   padding: 8px;
   margin: 5px;
-  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
-              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
+    12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   background: linear-gradient(135deg, #eee, white);
   background-color: #eee;
 }
@@ -97,7 +99,7 @@ p > a {
 .primary-btn {
   background-color: white;
   padding: 10px 20px;
-  border: 1px solid rgb(26,188,156);
+  border: 1px solid rgb(26, 188, 156);
 }
 
 .tech-icon {
@@ -105,17 +107,19 @@ p > a {
   border-radius: 35%;
   padding: 8px;
   margin: 5px;
-  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
-              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
+    12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   background: linear-gradient(135deg, #eee, white);
   background-color: #eee;
 }
 
-.social-link { position: relative; }
+.social-link {
+  position: relative;
+}
 
 .primary-btn:hover {
   color: white;
-  background-color: rgb(26,188,156);
+  background-color: rgb(26, 188, 156);
   cursor: pointer;
   transition: 1s;
 }
@@ -166,10 +170,8 @@ p > a {
   width: 0;
   display: inline-block;
   vertical-align: bottom;
-  border-right: 1px solid rgb(26,188,156);
-  animation: 
-    type 2s 2s forwards,
-    blinking-cursor 1s infinite;
+  border-right: 1px solid rgb(26, 188, 156);
+  animation: type 2s 2s forwards, blinking-cursor 1s infinite;
 }
 
 .navbar {
@@ -182,7 +184,7 @@ p > a {
 .about-me-heading {
   font-weight: bold;
   font-size: 2em;
-  color: rgb(26,188,156);
+  color: rgb(26, 188, 156);
   grid-row-start: 1;
   grid-column-start: 2;
 }
@@ -202,7 +204,7 @@ p > a {
 .card-container {
   display: flex;
   justify-content: center;
-  margin-top: 10vh; 
+  margin-top: 10vh;
 }
 
 .project-title {
@@ -224,20 +226,12 @@ p > a {
   grid-template-rows: repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: auto;
-  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5), 
-              12px 12px 12px 0 rgba(224, 228, 239, 0.5);
+  box-shadow: -12px -12px 12px 0 rgba(255, 255, 255, 0.5),
+    12px 12px 12px 0 rgba(224, 228, 239, 0.5);
   border-radius: 20px;
   background-color: white;
   justify-items: center;
   align-items: center;
-}
-/* 
-.display-menu {
-  display
-} */
-
-#slide-right {
-
 }
 
 .bottom-card {
@@ -249,12 +243,6 @@ p > a {
   /* grid-template-rows: auto; */
   /* align-items: center; */
 }
-
-.medium-card {
-  /* height: 30vh; */
-  
-}
-
 .home-nav {
   padding-left: 100px;
   grid-row-start: 2;
@@ -312,17 +300,21 @@ p > a {
 
 .home-nav li {
   font-family: Martel, serif;
-  border-bottom: 1px solid rgb(26,188,156);
+  border-bottom: 1px solid rgb(26, 188, 156);
   padding: 6px;
   margin: 5px;
-  background: linear-gradient(to bottom, white 50%, rgb(26,188,156) 50%);
+  background: linear-gradient(to bottom, white 50%, rgb(26, 188, 156) 50%);
   background-size: 100% 200%;
   background-position: top;
 }
 
-.social-link > a { text-decoration: none;}
+.social-link > a {
+  text-decoration: none;
+}
 
-nav > ul {padding: 0;}
+nav > ul {
+  padding: 0;
+}
 
 .social-icon:hover {
   animation-name: pulse;
@@ -344,8 +336,8 @@ nav > ul {padding: 0;}
 }
 
 .navbar li:hover a:not(.active) {
-  border-bottom: 2px solid rgb(26,188,156);
-  color: rgb(26,188,156);
+  border-bottom: 2px solid rgb(26, 188, 156);
+  color: rgb(26, 188, 156);
   position: relative;
   animation-name: slide-up;
   animation-duration: 0.5s;
@@ -372,57 +364,69 @@ nav > ul {padding: 0;}
   padding: 20px 50px;
 }
 
-.see-more, .see-less {
+.see-more,
+.see-less {
   color: blue;
   text-decoration: underline;
 }
 
-.see-more:hover, .see-less:hover {
+.see-more:hover,
+.see-less:hover {
   cursor: pointer;
 }
 
 /*  ANIMATIONS */
 @keyframes type {
-  from { width: 0; }
-  to { width: 5.4em; }
+  from {
+    width: 0;
+  }
+  to {
+    width: 5.4em;
+  }
 }
 
 @keyframes blinking-cursor {
-  from { border-right-color: rgb(26,188,156) }
-  to { border-right-color: transparent;}
+  from {
+    border-right-color: rgb(26, 188, 156);
+  }
+  to {
+    border-right-color: transparent;
+  }
 }
 
 @keyframes pulse {
   from {
-    transform: scale(1)
+    transform: scale(1);
   }
 
   25% {
-    transform: scale(0.8)
+    transform: scale(0.8);
   }
 
   50% {
-    transform: scale(1.3)
+    transform: scale(1.3);
   }
 
   to {
-    transform: scale(1.2)
+    transform: scale(1.2);
   }
 }
 
 @keyframes slide-up {
-  from {bottom: 0}
-  to {bottom: 6px}
+  from {
+    bottom: 0;
+  }
+  to {
+    bottom: 6px;
+  }
 }
-
 
 /* RESPONSIVE STYLING */
 /* Medium sized devices */
 @media screen and (max-width: 991.98px) {
-
   main {
     grid-row-start: 1;
-    grid-column-start: 1; 
+    grid-column-start: 1;
     padding: 0;
     text-align: center;
   }
@@ -458,7 +462,7 @@ nav > ul {padding: 0;}
   }
 
   .neumorphic-card {
-    grid-template-rows: auto; 
+    grid-template-rows: auto;
     grid-template-columns: 1fr;
     justify-content: center;
     min-height: 95vh;
@@ -482,9 +486,7 @@ nav > ul {padding: 0;}
   }
 
   .work {
-    /* min-height: fit-content; */
-    min-height: 50vh; 
-
+    min-height: 50vh;
   }
 
   .blog {
@@ -519,10 +521,8 @@ nav > ul {padding: 0;}
     grid-row-start: 2;
     padding: 20px;
     text-align: center;
-
   }
 
- 
   form {
     grid-column-start: 1;
     grid-row-start: 3;
@@ -534,14 +534,12 @@ nav > ul {padding: 0;}
 
   .social-icon-container--contact {
     grid-row-start: 4;
-    grid-column-start: 1
+    grid-column-start: 1;
   }
-
 }
 
 /* Small Devices */
 @media screen and (max-width: 767.98px) {
-
   main {
     grid-row-start: 3;
   }
@@ -562,19 +560,12 @@ nav > ul {padding: 0;}
     display: block;
   }
 
-  .hamburger-links {
-    /* grid-column-start: 2;
-    grid-row-start: 2; */
-  }
-
-  
-
   .hamburger-links li {
     list-style-type: none;
   }
 
   .hamburger-links a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
 
   .neumorphic-card {
@@ -617,20 +608,18 @@ nav > ul {padding: 0;}
     padding: 40px 15px;
   }
 
-
   input {
     width: auto;
   }
 }
-
 
 .contact-card {
   grid-template-rows: auto;
 }
 
 .active {
-  color: rgb(26,188,156);
-  border-bottom: 2px solid rgb(26,188,156);
+  color: rgb(26, 188, 156);
+  border-bottom: 2px solid rgb(26, 188, 156);
   position: relative;
   bottom: 6px;
 }

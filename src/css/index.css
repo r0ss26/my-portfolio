@@ -11,7 +11,7 @@ textarea {
 }
 
 textarea {
-  border: 1px solid rgb(26, 188, 156);
+  border: 1px solid #845EC2;
   border-radius: 3px;
 }
 
@@ -25,18 +25,18 @@ textarea {
 }
 
 .contact-title {
-  color: rgb(26, 188, 156);
+  color: #845EC2;
 }
 
 form input[type="text"],
 form input[type="email"] {
   border: none;
-  border-bottom: 1px solid rgb(26, 188, 156);
+  border-bottom: 1px solid #845EC2;
 }
 
 form input[type="submit"] {
   color: white;
-  background-color: rgb(26, 188, 156);
+  background-color: #845EC2;
   border: none;
   border-radius: 5px;
   width: 100%;
@@ -99,7 +99,7 @@ p > a {
 .primary-btn {
   background-color: white;
   padding: 10px 20px;
-  border: 1px solid rgb(26, 188, 156);
+  border: 1px solid #845EC2;
 }
 
 .tech-icon {
@@ -119,7 +119,7 @@ p > a {
 
 .primary-btn:hover {
   color: white;
-  background-color: rgb(26, 188, 156);
+  background-color: #845EC2;
   cursor: pointer;
   transition: 1s;
 }
@@ -170,7 +170,7 @@ p > a {
   width: 0;
   display: inline-block;
   vertical-align: bottom;
-  border-right: 1px solid rgb(26, 188, 156);
+  border-right: 1px solid #845EC2;
   animation: type 2s 2s forwards, blinking-cursor 1s infinite;
 }
 
@@ -184,7 +184,7 @@ p > a {
 .about-me-heading {
   font-weight: bold;
   font-size: 2em;
-  color: rgb(26, 188, 156);
+  color: #845EC2;
   grid-row-start: 1;
   grid-column-start: 2;
 }
@@ -300,10 +300,10 @@ p > a {
 
 .home-nav li {
   font-family: Martel, serif;
-  border-bottom: 1px solid rgb(26, 188, 156);
+  border-bottom: 1px solid #845EC2;
   padding: 6px;
   margin: 5px;
-  background: linear-gradient(to bottom, white 50%, rgb(26, 188, 156) 50%);
+  background: linear-gradient(to bottom, white 50%, #845EC2 50%);
   background-size: 100% 200%;
   background-position: top;
 }
@@ -336,8 +336,8 @@ nav > ul {
 }
 
 .navbar li:hover a:not(.active) {
-  border-bottom: 2px solid rgb(26, 188, 156);
-  color: rgb(26, 188, 156);
+  border-bottom: 2px solid #845EC2;
+  color: #845EC2;
   position: relative;
   animation-name: slide-up;
   animation-duration: 0.5s;
@@ -387,7 +387,7 @@ nav > ul {
 
 @keyframes blinking-cursor {
   from {
-    border-right-color: rgb(26, 188, 156);
+    border-right-color: #845EC2;
   }
   to {
     border-right-color: transparent;
@@ -618,8 +618,8 @@ nav > ul {
 }
 
 .active {
-  color: rgb(26, 188, 156);
-  border-bottom: 2px solid rgb(26, 188, 156);
+  color: #845EC2;
+  border-bottom: 2px solid #845EC2;
   position: relative;
   bottom: 6px;
 }

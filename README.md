@@ -120,7 +120,7 @@ All wire-frames for my website were done with the balsamiq cloud application. I 
 
 #### Contact Page
 
-![Get In Touch](./docs/wireframes/Get In Touch.png)
+![Get In Touch](./docs/wireframes/Get_In_Touch.png)
 
 #### Blog Page
 

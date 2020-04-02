@@ -2,7 +2,7 @@
 
 ## Site URL
 
-https://r0ss26.github.io/portfolio/
+https://r0ss26.github.io
 
 ## Github Repository
 

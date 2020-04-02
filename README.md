@@ -16,7 +16,7 @@ This site also aims to bring attention to my blog posts which are published on t
 
 ## Target Audience
 
-**Other Developers: ** The site can act as a point of contact for networking with other developers and to find out about interesting projects.
+**Other Developers:** The site can act as a point of contact for networking with other developers and to find out about interesting projects.
 
 **Potential Employers/Recruiters:** The site will also function as a demonstration to employers of my technical skills. The site will allow them to find out more about me and also to access my CV.
 
